@@ -49,3 +49,23 @@ while counter < len(list_first_name):
     print("{} Saini".format(list_first_name[counter]))
     counter = counter + 1
 ```
+homework updated by devika
+```py
+#while loop
+
+num=1
+while num < 10:
+    print(num)
+    num +=1
+
+#program to add natural numbers
+num=10
+sum=0
+num_entered=1
+
+while num_entered <= num:
+    sum=sum + num_entered
+    num_entered = num_entered + 1
+    print("the sum is{}.format"(sum))
+
+```
