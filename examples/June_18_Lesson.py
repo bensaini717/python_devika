@@ -26,7 +26,7 @@ cellphone_no["Shivani"] = "98735392911"
 
 print(len(cellphone_no))
 
-list_of_keys =cellphone_no.keys()
+list_of_keys =list(cellphone_no.keys())
 
 counter=0
 print(list_of_keys)
@@ -36,8 +36,8 @@ while counter < len(list_of_keys):
     print("for the name {} the cellphone no is {}".format(key,value))
     counter=counter + 1
 
-#For the above mentioned names of people write a dictionary that
-# stores the age of the people by name
+For the above mentioned names of people write a dictionary that
+stores the age of the people by name
 
 dictonary_for_age ={}
 dictonary_for_age["Ben"] = "35"
@@ -48,15 +48,15 @@ dictonary_for_age["Shivani"] = "33"
 
 print(len(dictonary_for_age))
 
-list_of_keys = dictonary_for_ag
+list_of_keys =dictonary_for_age.keys()
 
 counter=0
 
-while counter < len(list_of_keys):
-    key=list_of_keys[counter]
-    value=dictonary_for_age[key]
-    print("for the name {} the age of this person is {}".format(key,value))
-    counter=counter + 1
+# while counter < len(list_of_keys):
+#     key=list_of_keys[counter]
+#     value=dictonary_for_age[key]
+#     print("for the name {} the age of this person is {}".format(key,value))
+#     counter=counter + 1
 
 #For the above mentioned names of people write a dictionary that
 # stores the address of the people by name
@@ -71,15 +71,15 @@ dictonary_for_address["Stuti"] = "556,lincasta apartment,New Delhi"
 
 print(len(dictonary_for_address))
 
-list_of_keys = dictonary_for_address
+list_of_keys =dictonary_for_address.keys()
 
 counter=0
 
-while counter < len(list_of_keys):
-    key=list_of_keys[counter]
-    value=dictonary_for_address[key]
-    print("for the name {} the address of this person is {}".format(key,value))
-    counter=counter + 1
+# while counter < len(list_of_keys):
+#     key=list_of_keys[counter]
+#     value=dictonary_for_address[key]
+#     print("for the name {} the address of this person is {}".format(key,value))
+#     counter=counter + 1
 
  #Then write a loop, you are free to use for or while, to print
 # age, address, and cellphone numbers.
@@ -89,8 +89,11 @@ list_of_keys = [cellphone_no ,dictonary_for_address ,dictonary_for_age]
 
 counter=0
 
-while counter < len(list_of_keys):
-    key=list_of_keys[counter]
-    value=[dictonary_for_address,cellphone_no,dictonary_for_age][key]
-    print("for the name {} the details of this person is {}".format(key,value))
+# while counter < len(list_of_keys):
+#     key=list_of_keys[counter]
+#     value_address=dictonary_for_address[key]
+#     value_age=dictonary_for_age[key]
+#     vale_cellphone=cellphone_no[key]
+
+    print("for the name {} the cellphone no is {} the address is {} the age is  {}".format(key,value_address,value_age,vale_cellphone))
     counter=counter + 1
