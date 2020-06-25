@@ -22,37 +22,37 @@
 
 class calculate_Area:
 
-    radius=20
+    PI = 3.142
 
-    def area_Circle(self,radius):
-        PI = 3.142
-        return PI * (radius*radius)
-        print("the area of circle is")
+    def area_Circle(self, radius):
+        area = self.PI * (radius * radius)
+        return area
 
 
-    def area_Rectangle(self,width,height):
-        area = width * height
-        print("the area of rectangle is")
+    def area_Rectangle(self, width, height):
+        area = self.PI * width * height
+        return area
 
-    def area_Triangle(self,a,b,c,s):
+    def area_Triangle(self, a, b, c, s):
         area = (s*(s-a)*(s-b)*(s-c)) ** 0.5
-        print("the area of triangle is")
+        return area
 
-    def area_Rhombus(self,d1,d2):
+    def area_Rhombus(self, d1, d2):
         area = (d1 * d2) / 2
-        print("the area of rhombus is")
+        return area
 
 
-total_Area_Circle = calculate_Area()
-total_Area_Circle.area_Circle(20)
+# my_area_calculator = calculate_Area()
+# areaOfMyCircle = my_area_calculator.area_Circle(radius=20)
+# print("The area of my circle is {}".format(areaOfMyCircle))
+#
+# areaOfMyRectangle = my_area_calculator.area_Rectangle(width=20, height=40)
+# print("The area of my Rectangle is {}".format(areaOfMyRectangle))
+#
+# areaOfMyTriangle = my_area_calculator.area_Triangle(a=10, b=50, c=30, s=90)
+# print("The area of my Triangle is {}".format(areaOfMyTriangle))
 
-total_Area_Rectangle = calculate_Area()
-total_Area_Rectangle.area_Rectangle(20,40)
-
-total_Area_Triangle = calculate_Area()
-total_Area_Triangle.area_Triangle(10,50,30,90)
-
-total_Area_rhombus = calculate_Area()
-total_Area_rhombus.area_Rhombus(50,30)
+# total_Area_rhombus = calculate_Area()
+# total_Area_rhombus.area_Rhombus(50,30)
 
 
