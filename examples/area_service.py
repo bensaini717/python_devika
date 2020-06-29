@@ -9,7 +9,7 @@ class Area_Service:
 
 
     def area_Rectangle(self, width, height):
-        area = self.PI * width * height
+        area = width * height
         return area
 
     def area_Triangle(self, a, b, c, s):

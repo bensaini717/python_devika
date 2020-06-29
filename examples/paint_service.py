@@ -7,3 +7,6 @@ class Paint_Service:
 
     def paint_Circle(self, color, area):
         return "Painting area of {} with color {}".format(area, color)
+
+    def paint_rectangle(self, color, area):
+        return "Painting area of {} with color {}".format(area, color)

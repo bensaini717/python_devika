@@ -1,6 +1,8 @@
 
 
 # Homework
+from area_service import Area_Service
+from paint_service import Paint_Service
 
 
 rectangle_object = {}
@@ -9,6 +11,29 @@ rectangle_object["Two"] = [45, 34, "green"]
 rectangle_object["Three"] = [56, 43, "yellow"]
 rectangle_object["Four"] = [12, 12, "pink"]
 rectangle_object["Five"] = [15, 29, "orange"]
+
+print(len(rectangle_object))
+
+list_of_keys = list(rectangle_object.keys())
+print(list_of_keys[0])
+print(list_of_keys)
+
+counter = 0
+
+while counter < len(list_of_keys):
+    key = list_of_keys[counter]
+    print(key)
+    value = rectangle_object[key]
+    radius = value[0]
+    colour = value[1]
+    rectangle_area = area_svc_obj.area_reactangle(width = width,length=length)
+    paint_task_resp = paint_svc_obj.paint_(area=rectangle_area, color=colour)
+    print(paint_task_resp)
+
+
+    # print("Key is {} and radius is {} and colour is {}".format(key,radius,colour))
+    counter = counter + 1
+
 
 
 

@@ -8,8 +8,8 @@ from paint_service import Paint_Service
 area_svc_obj = Area_Service()
 paint_svc_obj = Paint_Service()
 
-circle_area = area_svc_obj.area_Circle(radius=20)
-paint_task_resp = paint_svc_obj.paint_Circle(area=circle_area, color="Red")
+rectangle_area = area_svc_obj.area_reactangle(width=20,length=10)
+paint_task_resp = paint_svc_obj.paint_Circle(area=rectangle_area, color="Red")
 
 print(paint_task_resp)
 
