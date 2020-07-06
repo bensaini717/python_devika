@@ -1,7 +1,6 @@
-class mercedes_cla:
-
-colour="red"
-model=[250]
+class Mercedes_Cla_Template:
+    colour="red"
+    model=[250]
 
 
     def park_car(self):
