@@ -15,4 +15,15 @@ How -  column value --> [Black Box] --> uniuqe value  [This happens only at the 
 
 			devikasaini7@gmail.com --> [Black Box] --> 567 : 41 (record/row id)
 			stutisain@gmail.com  --> [Black Box] --> 845
-			devikasaini7@gmail.com --> [Black Box] --> 567 : [41, 45] ```
+			devikasaini7@gmail.com --> [Black Box] --> 567 : [41, 45] 
+
+```
+
+
+Exercise
+
+Normalize following Data for Amazon
+
+Database Design:
+
+Books Name, Price, Author, User Rating Stars, User name rated, Description of rating
